@@ -23,6 +23,13 @@ def bubble_sort(tab):
     return tab
 
 
+# TODO Insertion
+def insertion_sort(tab):
+    for j in range(1, len(tab)):
+        for i in range(j):
+            print("")
+
+
 # Main
 tab_unsort = data_set(10)
 print(bubble_sort(tab_unsort))
